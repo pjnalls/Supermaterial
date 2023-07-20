@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@promponent/lib/layout": ["lib/layout/src/index.ts"],
-      "@promponent/lib/navigation": ["lib/navigation/src/index.ts"]
+      "@promponent/lib/navigation": ["lib/navigation/src/index.ts"],
+      "@promponent/lib/typography": ["lib/typography/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
