@@ -2,24 +2,28 @@
 
 <br/>
 
+<img width="128px" alt="PRMP Logo" src="public/pmpt.logo.avif" />
+
+<br/>
+<br/>
+
 **⏱️Promponent⏱️**
 
 🌍⚛️🌀📜🛠️📚
 
-<br/>
-
-** T e m p l a t e **
-
-<br/>
-<br/>
-
 </h1>
+
+<h2 align="center">
+
+Public Template
+
+</h2>
 
 <p align="center">
 
 <br>
 
-> [IN PROGRESS]: /prɑːmˈpəʊnənt/ Promptly-responsive React component library written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
+[IN PROGRESS]: /prɑːmˈpəʊnənt/ Promptly-responsive React component library written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
 
 <br/>
 
