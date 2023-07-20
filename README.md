@@ -1,5 +1,31 @@
-# Promponent
-[IN PROGRESS]: Promptly-responsive React component library written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
+<h1 align="center">
+
+<br/>
+
+**⏱️Promponent⏱️**
+
+🌍⚛️🌀📜🛠️📚
+
+<br/>
+
+** T e m p l a t e **
+
+<br/>
+<br/>
+
+</h1>
+
+<p align="center">
+
+<br>
+
+> [IN PROGRESS]: /prɑːmˈpəʊnənt/ Promptly-responsive React component library written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
+
+<br/>
+
+</p>
+
+<br/>
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -60,4 +86,3 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 - [Join the community](https://nx.dev/community)
 - [Subscribe to the Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
 - [Follow us on Twitter](https://twitter.com/nxdevtools)
-
