@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@promponent/data-display": ["src/lib/data-display/src/index.ts"],
       "@promponent/inputs": ["src/lib/inputs/src/index.ts"]
     }
   },
