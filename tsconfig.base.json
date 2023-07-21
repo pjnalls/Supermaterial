@@ -19,6 +19,7 @@
       "@promponent/data-grid": ["src/lib/data-grid/src/index.ts"],
       "@promponent/feedback": ["src/lib/feedback/src/index.ts"],
       "@promponent/inputs": ["src/lib/inputs/src/index.ts"],
+      "@promponent/lab": ["src/lib/lab/src/index.ts"],
       "@promponent/layout": ["src/lib/layout/src/index.ts"],
       "@promponent/navigation": ["src/lib/navigation/src/index.ts"],
       "@promponent/surfaces": ["src/lib/surfaces/src/index.ts"]
