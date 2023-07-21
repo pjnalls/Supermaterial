@@ -17,7 +17,8 @@
     "paths": {
       "@promponent/data-display": ["src/lib/data-display/src/index.ts"],
       "@promponent/feedback": ["src/lib/feedback/src/index.ts"],
-      "@promponent/inputs": ["src/lib/inputs/src/index.ts"]
+      "@promponent/inputs": ["src/lib/inputs/src/index.ts"],
+      "@promponent/surfaces": ["src/lib/surfaces/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
