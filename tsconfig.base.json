@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@promponent/lib/navigation": ["lib/navigation/src/index.ts"],
       "@promponent/lib/typography": ["lib/typography/src/index.ts"]
     }
   },
