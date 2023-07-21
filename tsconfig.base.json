@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@promponent/data-display": ["src/lib/data-display/src/index.ts"],
+      "@promponent/data-grid": ["src/lib/data-grid/src/index.ts"],
       "@promponent/feedback": ["src/lib/feedback/src/index.ts"],
       "@promponent/inputs": ["src/lib/inputs/src/index.ts"],
       "@promponent/layout": ["src/lib/layout/src/index.ts"],
