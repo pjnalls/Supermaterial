@@ -3,7 +3,13 @@ import { FloatingActionButton } from './floating-action-button';
 
 const Story: Meta<typeof FloatingActionButton> = {
   component: FloatingActionButton,
-  title: 'Inputs/FloatingActionButton',
+  title: 'Inputs/Floating Action Button',
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/EUQyB3jTGkj0ND03W0qNtB/MUI-(Material-Design-Component-Figma-Library-For-React)-(Community)?node-id=14%3A736&mode=dev',
+    },
+  },
 };
 export default Story;
 
