@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import DataGrid from './data-grid';
+import Paper from './paper';
 
-describe('DataGrid', () => {
+describe('Paper', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<DataGrid />);
+    const { baseElement } = render(<Paper />);
     expect(baseElement).toBeTruthy();
   });
 });

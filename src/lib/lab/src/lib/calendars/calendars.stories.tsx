@@ -3,7 +3,7 @@ import { Calendars } from './calendars';
 
 const Story: Meta<typeof Calendars> = {
   component: Calendars,
-  title: 'Calendars',
+  title: 'Lab/Calendars',
 };
 export default Story;
 

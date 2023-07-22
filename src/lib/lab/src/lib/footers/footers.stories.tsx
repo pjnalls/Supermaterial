@@ -3,7 +3,7 @@ import { Footers } from './footers';
 
 const Story: Meta<typeof Footers> = {
   component: Footers,
-  title: 'Footers',
+  title: 'Lab/Footers',
 };
 export default Story;
 

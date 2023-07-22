@@ -3,7 +3,7 @@ import { ButtonGroup } from './button-group';
 
 const Story: Meta<typeof ButtonGroup> = {
   component: ButtonGroup,
-  title: 'ButtonGroup',
+  title: 'Inputs/ButtonGroup',
 };
 export default Story;
 

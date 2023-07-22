@@ -3,7 +3,7 @@ import { Badge } from './badge';
 
 const Story: Meta<typeof Badge> = {
   component: Badge,
-  title: 'Badge',
+  title: 'Data Display/Badge',
 };
 export default Story;
 

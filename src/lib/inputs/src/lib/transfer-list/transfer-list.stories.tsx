@@ -3,7 +3,7 @@ import { TransferList } from './transfer-list';
 
 const Story: Meta<typeof TransferList> = {
   component: TransferList,
-  title: 'TransferList',
+  title: 'Inputs/TransferList',
 };
 export default Story;
 

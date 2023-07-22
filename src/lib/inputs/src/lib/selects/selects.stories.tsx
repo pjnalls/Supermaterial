@@ -3,7 +3,7 @@ import { Selects } from './selects';
 
 const Story: Meta<typeof Selects> = {
   component: Selects,
-  title: 'Selects',
+  title: 'Inputs/Selects',
 };
 export default Story;
 

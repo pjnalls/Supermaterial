@@ -3,7 +3,7 @@ import { Skeleton } from './skeleton';
 
 const Story: Meta<typeof Skeleton> = {
   component: Skeleton,
-  title: 'Skeleton',
+  title: 'Feedback/Skeleton',
 };
 export default Story;
 

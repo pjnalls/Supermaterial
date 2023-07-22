@@ -3,7 +3,7 @@ import { Ratings } from './ratings';
 
 const Story: Meta<typeof Ratings> = {
   component: Ratings,
-  title: 'Ratings',
+  title: 'Inputs/Ratings',
 };
 export default Story;
 

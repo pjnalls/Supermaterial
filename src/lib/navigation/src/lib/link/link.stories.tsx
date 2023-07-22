@@ -3,7 +3,7 @@ import { Link } from './link';
 
 const Story: Meta<typeof Link> = {
   component: Link,
-  title: 'Link',
+  title: 'Navigation/Link',
 };
 export default Story;
 

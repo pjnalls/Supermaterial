@@ -1,9 +1,9 @@
 import type { Meta } from '@storybook/react';
-import { Lab } from './lab';
+import { Card } from './card';
 
-const Story: Meta<typeof Lab> = {
-  component: Lab,
-  title: 'Lab',
+const Story: Meta<typeof Card> = {
+  component: Card,
+  title: 'Surfaces/Card',
 };
 export default Story;
 

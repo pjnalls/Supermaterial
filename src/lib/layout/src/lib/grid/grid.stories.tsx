@@ -3,7 +3,7 @@ import { Grid } from './grid';
 
 const Story: Meta<typeof Grid> = {
   component: Grid,
-  title: 'Grid',
+  title: 'Layout/Grid',
 };
 export default Story;
 

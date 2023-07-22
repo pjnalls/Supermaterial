@@ -3,7 +3,7 @@ import { Progress } from './progress';
 
 const Story: Meta<typeof Progress> = {
   component: Progress,
-  title: 'Progress',
+  title: 'Feedback/Progress',
 };
 export default Story;
 

@@ -3,7 +3,7 @@ import { Lazy } from './lazy';
 
 const Story: Meta<typeof Lazy> = {
   component: Lazy,
-  title: 'Lazy',
+  title: 'Lab/Lazy',
 };
 export default Story;
 

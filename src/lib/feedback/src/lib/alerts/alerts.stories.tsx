@@ -3,7 +3,7 @@ import { Alerts } from './alerts';
 
 const Story: Meta<typeof Alerts> = {
   component: Alerts,
-  title: 'Alerts',
+  title: 'Feedback/Alerts',
 };
 export default Story;
 

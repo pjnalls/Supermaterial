@@ -3,7 +3,7 @@ import { Timeline } from './timeline';
 
 const Story: Meta<typeof Timeline> = {
   component: Timeline,
-  title: 'Timeline',
+  title: 'Lab/Timeline',
 };
 export default Story;
 

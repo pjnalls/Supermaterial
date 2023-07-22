@@ -3,7 +3,7 @@ import { BottomSheets } from './bottom-sheets';
 
 const Story: Meta<typeof BottomSheets> = {
   component: BottomSheets,
-  title: 'BottomSheets',
+  title: 'Lab/BottomSheets',
 };
 export default Story;
 

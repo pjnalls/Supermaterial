@@ -3,7 +3,7 @@ import { Tooltip } from './tooltip';
 
 const Story: Meta<typeof Tooltip> = {
   component: Tooltip,
-  title: 'Tooltip',
+  title: 'Data Display/Tooltip',
 };
 export default Story;
 

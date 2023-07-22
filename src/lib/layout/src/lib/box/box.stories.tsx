@@ -3,7 +3,7 @@ import { Box } from './box';
 
 const Story: Meta<typeof Box> = {
   component: Box,
-  title: 'Box',
+  title: 'Layout/Box',
 };
 export default Story;
 

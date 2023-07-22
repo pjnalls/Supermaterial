@@ -3,7 +3,7 @@ import { TreeView } from './tree-view';
 
 const Story: Meta<typeof TreeView> = {
   component: TreeView,
-  title: 'TreeView',
+  title: 'Lab/TreeView',
 };
 export default Story;
 

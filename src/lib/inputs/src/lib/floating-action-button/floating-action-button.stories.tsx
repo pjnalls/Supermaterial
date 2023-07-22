@@ -3,7 +3,7 @@ import { FloatingActionButton } from './floating-action-button';
 
 const Story: Meta<typeof FloatingActionButton> = {
   component: FloatingActionButton,
-  title: 'FloatingActionButton',
+  title: 'Inputs/FloatingActionButton',
 };
 export default Story;
 

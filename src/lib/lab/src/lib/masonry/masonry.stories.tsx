@@ -3,7 +3,7 @@ import { Masonry } from './masonry';
 
 const Story: Meta<typeof Masonry> = {
   component: Masonry,
-  title: 'Masonry',
+  title: 'Lab/Masonry',
 };
 export default Story;
 

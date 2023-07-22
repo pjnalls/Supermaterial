@@ -3,7 +3,7 @@ import { Carousels } from './carousels';
 
 const Story: Meta<typeof Carousels> = {
   component: Carousels,
-  title: 'Carousels',
+  title: 'Lab/Carousels',
 };
 export default Story;
 

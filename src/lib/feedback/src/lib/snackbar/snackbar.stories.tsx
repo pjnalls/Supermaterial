@@ -3,7 +3,7 @@ import { Snackbar } from './snackbar';
 
 const Story: Meta<typeof Snackbar> = {
   component: Snackbar,
-  title: 'Snackbar',
+  title: 'Feedback/Snackbar',
 };
 export default Story;
 

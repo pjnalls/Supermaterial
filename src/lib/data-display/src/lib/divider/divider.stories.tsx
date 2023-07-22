@@ -3,7 +3,7 @@ import { Divider } from './divider';
 
 const Story: Meta<typeof Divider> = {
   component: Divider,
-  title: 'Divider',
+  title: 'Data Display/Divider',
 };
 export default Story;
 

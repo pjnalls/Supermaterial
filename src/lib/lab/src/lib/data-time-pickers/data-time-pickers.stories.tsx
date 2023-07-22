@@ -3,7 +3,7 @@ import { DataTimePickers } from './data-time-pickers';
 
 const Story: Meta<typeof DataTimePickers> = {
   component: DataTimePickers,
-  title: 'DataTimePickers',
+  title: 'Lab/DataTimePickers',
 };
 export default Story;
 

@@ -3,7 +3,7 @@ import { Components } from './components';
 
 const Story: Meta<typeof Components> = {
   component: Components,
-  title: 'Components',
+  title: 'Data Grid/Components',
 };
 export default Story;
 

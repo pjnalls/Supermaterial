@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Layout from './layout';
+import Accordion from './accordion';
 
-describe('Layout', () => {
+describe('Accordion', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Layout />);
+    const { baseElement } = render(<Accordion />);
     expect(baseElement).toBeTruthy();
   });
 });

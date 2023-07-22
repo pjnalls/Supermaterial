@@ -3,7 +3,7 @@ import { BottomNavigation } from './bottom-navigation';
 
 const Story: Meta<typeof BottomNavigation> = {
   component: BottomNavigation,
-  title: 'BottomNavigation',
+  title: 'Navigation/BottomNavigation',
 };
 export default Story;
 

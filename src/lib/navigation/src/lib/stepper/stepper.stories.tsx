@@ -3,7 +3,7 @@ import { Stepper } from './stepper';
 
 const Story: Meta<typeof Stepper> = {
   component: Stepper,
-  title: 'Stepper',
+  title: 'Navigation/Stepper',
 };
 export default Story;
 

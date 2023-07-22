@@ -3,7 +3,7 @@ import { Stack } from './stack';
 
 const Story: Meta<typeof Stack> = {
   component: Stack,
-  title: 'Stack',
+  title: 'Layout/Stack',
 };
 export default Story;
 

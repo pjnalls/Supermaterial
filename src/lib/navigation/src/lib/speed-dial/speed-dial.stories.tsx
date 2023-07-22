@@ -3,7 +3,7 @@ import { SpeedDial } from './speed-dial';
 
 const Story: Meta<typeof SpeedDial> = {
   component: SpeedDial,
-  title: 'SpeedDial',
+  title: 'Navigation/SpeedDial',
 };
 export default Story;
 

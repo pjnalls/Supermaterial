@@ -3,7 +3,7 @@ import { RadioButton } from './radio-button';
 
 const Story: Meta<typeof RadioButton> = {
   component: RadioButton,
-  title: 'RadioButton',
+  title: 'Inputs/RadioButton',
 };
 export default Story;
 

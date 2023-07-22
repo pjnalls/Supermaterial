@@ -3,7 +3,7 @@ import { Sliders } from './sliders';
 
 const Story: Meta<typeof Sliders> = {
   component: Sliders,
-  title: 'Sliders',
+  title: 'Inputs/Sliders',
 };
 export default Story;
 

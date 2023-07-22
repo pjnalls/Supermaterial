@@ -3,7 +3,7 @@ import { Drawer } from './drawer';
 
 const Story: Meta<typeof Drawer> = {
   component: Drawer,
-  title: 'Drawer',
+  title: 'Navigation/Drawer',
 };
 export default Story;
 

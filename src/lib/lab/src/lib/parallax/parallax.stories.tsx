@@ -3,7 +3,7 @@ import { Parallax } from './parallax';
 
 const Story: Meta<typeof Parallax> = {
   component: Parallax,
-  title: 'Parallax',
+  title: 'Lab/Parallax',
 };
 export default Story;
 

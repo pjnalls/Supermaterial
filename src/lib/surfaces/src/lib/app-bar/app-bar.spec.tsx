@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Navigation from './navigation';
+import AppBar from './app-bar';
 
-describe('Navigation', () => {
+describe('AppBar', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Navigation />);
+    const { baseElement } = render(<AppBar />);
     expect(baseElement).toBeTruthy();
   });
 });

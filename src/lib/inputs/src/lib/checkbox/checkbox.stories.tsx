@@ -3,7 +3,7 @@ import { Checkbox } from './checkbox';
 
 const Story: Meta<typeof Checkbox> = {
   component: Checkbox,
-  title: 'Checkbox',
+  title: 'Inputs/Checkbox',
 };
 export default Story;
 

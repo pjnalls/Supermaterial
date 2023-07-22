@@ -3,7 +3,7 @@ import { ImageList } from './image-list';
 
 const Story: Meta<typeof ImageList> = {
   component: ImageList,
-  title: 'ImageList',
+  title: 'Layout/ImageList',
 };
 export default Story;
 

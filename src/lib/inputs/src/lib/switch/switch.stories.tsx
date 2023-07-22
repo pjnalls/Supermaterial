@@ -3,7 +3,7 @@ import { Switch } from './switch';
 
 const Story: Meta<typeof Switch> = {
   component: Switch,
-  title: 'Switch',
+  title: 'Inputs/Switch',
 };
 export default Story;
 

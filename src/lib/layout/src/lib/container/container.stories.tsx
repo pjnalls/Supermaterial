@@ -3,7 +3,7 @@ import { Container } from './container';
 
 const Story: Meta<typeof Container> = {
   component: Container,
-  title: 'Container',
+  title: 'Layout/Container',
 };
 export default Story;
 

@@ -3,7 +3,7 @@ import { Menu } from './menu';
 
 const Story: Meta<typeof Menu> = {
   component: Menu,
-  title: 'Menu',
+  title: 'Navigation/Menu',
 };
 export default Story;
 

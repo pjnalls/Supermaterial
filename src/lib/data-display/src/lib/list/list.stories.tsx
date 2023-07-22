@@ -3,7 +3,7 @@ import { List } from './list';
 
 const Story: Meta<typeof List> = {
   component: List,
-  title: 'List',
+  title: 'Data Display/List',
 };
 export default Story;
 

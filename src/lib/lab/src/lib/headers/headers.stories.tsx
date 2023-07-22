@@ -3,7 +3,7 @@ import { Headers } from './headers';
 
 const Story: Meta<typeof Headers> = {
   component: Headers,
-  title: 'Headers',
+  title: 'Lab/Headers',
 };
 export default Story;
 

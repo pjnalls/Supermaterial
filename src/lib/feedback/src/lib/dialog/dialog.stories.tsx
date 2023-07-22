@@ -3,7 +3,7 @@ import { Dialog } from './dialog';
 
 const Story: Meta<typeof Dialog> = {
   component: Dialog,
-  title: 'Dialog',
+  title: 'Feedback/Dialog',
 };
 export default Story;
 

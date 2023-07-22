@@ -3,7 +3,7 @@ import { Tabs } from './tabs';
 
 const Story: Meta<typeof Tabs> = {
   component: Tabs,
-  title: 'Tabs',
+  title: 'Navigation/Tabs',
 };
 export default Story;
 

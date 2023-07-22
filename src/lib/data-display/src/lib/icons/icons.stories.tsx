@@ -3,7 +3,7 @@ import { Icons } from './icons';
 
 const Story: Meta<typeof Icons> = {
   component: Icons,
-  title: 'Icons',
+  title: 'Data Display/Icons',
 };
 export default Story;
 

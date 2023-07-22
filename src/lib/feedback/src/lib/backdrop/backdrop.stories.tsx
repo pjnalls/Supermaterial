@@ -3,7 +3,7 @@ import { Backdrop } from './backdrop';
 
 const Story: Meta<typeof Backdrop> = {
   component: Backdrop,
-  title: 'Backdrop',
+  title: 'Feedback/Backdrop',
 };
 export default Story;
 
