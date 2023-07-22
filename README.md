@@ -23,7 +23,7 @@ Public Template
 
 <br>
 
-[IN PROGRESS]: /prɑːmˈpəʊnənt/ Promptly-responsive React component library written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
+[IN PROGRESS] /prɑːmˈpəʊnənt/: Promptly-responsive React component library based on MUI design system  written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
 
 <br/>
 
