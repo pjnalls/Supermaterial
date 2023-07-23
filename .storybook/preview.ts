@@ -1,8 +1,8 @@
+import { Preview } from '@storybook/react';
 import '../src/styles.scss';
+import SuperMaterialThemes from './super-material.theme';
 
-import supermaterialTheme from './super-material.theme';
-
-const preview = {
+const preview: Preview = {
   parameters: {
     controls: {
       matchers: {
@@ -11,7 +11,7 @@ const preview = {
       },
     },
     docs: {
-      theme: supermaterialTheme,
+      theme: SuperMaterialThemes,
     },
   },
 };
