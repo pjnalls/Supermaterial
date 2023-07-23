@@ -5,6 +5,7 @@ import './button.module.scss';
 const meta: Meta<typeof Button> = {
   component: Button,
   title: 'Inputs/Button',
+  argTypes: { variant: { control: false } },
   parameters: {
     design: {
       type: 'figma',
@@ -15,7 +16,7 @@ const meta: Meta<typeof Button> = {
 export default meta;
 
 const buttonArgs: ButtonProps = {
-  variant: 'text',
+  label: '',
   disabled: false,
   size: 'large',
   hover: false,
@@ -23,8 +24,21 @@ const buttonArgs: ButtonProps = {
   iconRight: false,
   key: '',
   className: '',
+  variant: 'text',
 };
-export const Primary: StoryObj<typeof Button> = {
+export const Text: StoryObj<typeof Button> = {
   render: (args) => <Button {...args} key={JSON.stringify(args)} />,
-  args: { ...buttonArgs },
+  args: { ...buttonArgs, label: 'TEXT', variant: 'text' },
+};
+export const Outlined: StoryObj<typeof Button> = {
+  render: (args) => <Button {...args} key={JSON.stringify(args)} />,
+  args: { ...buttonArgs, label: 'OUTLINED', variant: 'outlined' },
+};
+export const Fab_Extended: StoryObj<typeof Button> = {
+  render: (args) => <Button {...args} key={JSON.stringify(args)} />,
+  args: { ...buttonArgs, label: 'CONTAINED', variant: 'fab-extended' },
+};
+export const Contained: StoryObj<typeof Button> = {
+  render: (args) => <Button {...args} key={JSON.stringify(args)} />,
+  args: { ...buttonArgs, label: 'CONTAINED', variant: 'contained' },
 };
