@@ -15,15 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@promponent/data-display": ["src/lib/data-display/src/index.ts"],
-      "@promponent/data-grid": ["src/lib/data-grid/src/index.ts"],
-      "@promponent/feedback": ["src/lib/feedback/src/index.ts"],
-      "@promponent/inputs": ["src/lib/inputs/src/index.ts"],
-      "@promponent/lab": ["src/lib/lab/src/index.ts"],
-      "@promponent/layout": ["src/lib/layout/src/index.ts"],
-      "@promponent/navigation": ["src/lib/navigation/src/index.ts"],
-      "@promponent/styles": ["src/lib/styles/src/index.ts"],
-      "@promponent/surfaces": ["src/lib/surfaces/src/index.ts"]
+      "@super-material/data-display": ["src/lib/data-display/src/index.ts"],
+      "@super-material/data-grid": ["src/lib/data-grid/src/index.ts"],
+      "@super-material/feedback": ["src/lib/feedback/src/index.ts"],
+      "@super-material/inputs": ["src/lib/inputs/src/index.ts"],
+      "@super-material/lab": ["src/lib/lab/src/index.ts"],
+      "@super-material/layout": ["src/lib/layout/src/index.ts"],
+      "@super-material/navigation": ["src/lib/navigation/src/index.ts"],
+      "@super-material/styles": ["src/lib/styles/src/index.ts"],
+      "@super-material/surfaces": ["src/lib/surfaces/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

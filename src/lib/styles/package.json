@@ -1,5 +1,5 @@
 {
-  "name": "@promponent/styles",
+  "name": "@super-material/styles",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",

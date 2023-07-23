@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('promponent', () => {
+describe('super-material', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -8,6 +8,6 @@ describe('promponent', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome promponent');
+    getGreeting().contains('Welcome super-material');
   });
 });

@@ -1,5 +1,5 @@
 {
-  "name": "promponent",
+  "name": "super-material",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "./src",
   "projectType": "application",
@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/promponent"
+        "outputPath": "dist/super-material"
       },
       "configurations": {
         "development": {
@@ -24,15 +24,15 @@
       "executor": "@nx/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "promponent:build"
+        "buildTarget": "super-material:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "promponent:build:development",
+          "buildTarget": "super-material:build:development",
           "hmr": true
         },
         "production": {
-          "buildTarget": "promponent:build:production",
+          "buildTarget": "super-material:build:production",
           "hmr": false
         }
       }
@@ -41,23 +41,23 @@
       "executor": "@nx/vite:preview-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "promponent:build"
+        "buildTarget": "super-material:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "promponent:build:development"
+          "buildTarget": "super-material:build:development"
         },
         "production": {
-          "buildTarget": "promponent:build:production"
+          "buildTarget": "super-material:build:production"
         }
       }
     },
     "test": {
       "executor": "@nx/vite:test",
-      "outputs": ["coverage/promponent"],
+      "outputs": ["coverage/super-material"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "coverage/promponent"
+        "reportsDirectory": "coverage/super-material"
       }
     },
     "lint": {
@@ -70,7 +70,7 @@
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "promponent:build"
+        "buildTarget": "super-material:build"
       }
     },
     "storybook": {
@@ -89,7 +89,7 @@
       "executor": "@nx/storybook:build",
       "outputs": ["{options.outputDir}"],
       "options": {
-        "outputDir": "dist/storybook/promponent",
+        "outputDir": "dist/storybook/super-material",
         "configDir": "./.storybook"
       },
       "configurations": {
@@ -101,12 +101,12 @@
     "static-storybook": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "promponent:build-storybook",
-        "staticFilePath": "dist/storybook/promponent"
+        "buildTarget": "super-material:build-storybook",
+        "staticFilePath": "dist/storybook/super-material"
       },
       "configurations": {
         "ci": {
-          "buildTarget": "promponent:build-storybook:ci"
+          "buildTarget": "super-material:build-storybook:ci"
         }
       }
     }

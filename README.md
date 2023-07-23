@@ -2,14 +2,15 @@
 
 <br/>
 
-<img width="128px" alt="PRMP Logo" src="public/pmpt.logo.avif" />
+<!-- markdownlint-disable-next-line -->
+<p align="center">
+  <a href="https://mui.com/" rel="noopener" target="_blank"><img width="150" src="public/logo.svg" alt="MUI logo"></a>
+</p>
 
 <br/>
 <br/>
 
-**⏱️Promponent⏱️**
-
-🌍⚛️🌀📜🛠️📚
+**🦸Super Material🦹**
 
 </h1>
 
@@ -23,7 +24,7 @@ Public Template
 
 <br>
 
-[IN PROGRESS] /prɑːmˈpəʊnənt/: Promptly-responsive React component library based on MUI design system  written in TypeScript and maintained in an Nx/Storybook monorepo with Figma integrations.
+[IN PROGRESS] Foundational React components. Based off an implementation of MUI Core written in TypeScript/Sass and maintained in an Nx/Storybook monorepo with Figma/Anima integrations.
 
 <br/>
 
@@ -37,7 +38,7 @@ Public Template
 
 ## Start the app
 
-To start the development server run `nx serve promponent`. Open your browser and navigate to http://localhost:4200/. Happy coding!
+To start the development server run `nx serve super-material`. Open your browser and navigate to http://localhost:4200/. Happy coding!
 
 ## Generate code
 

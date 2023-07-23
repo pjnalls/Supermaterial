@@ -1,5 +1,5 @@
 {
-  "name": "@promponent/feedback",
+  "name": "@super-material/feedback",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",

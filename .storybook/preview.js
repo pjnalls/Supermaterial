@@ -1,5 +1,7 @@
 import '../src/styles.scss';
 
+import supermaterialTheme from './super-material.theme';
+
 const preview = {
   parameters: {
     controls: {
@@ -7,6 +9,9 @@ const preview = {
         color: /(background|color)$/i,
         date: /Date$/,
       },
+    },
+    docs: {
+      theme: supermaterialTheme,
     },
   },
 };
