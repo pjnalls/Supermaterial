@@ -1,7 +1,253 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+$black-012: rgba(0, 0, 0, 0.12);
+$black-026: rgba(0, 0, 0, 0.26);
+$customprimary: rgba(25, 118, 210, 1);
+$customprimary-004: rgba(25, 118, 210, 0.04);
+$default: 0px 1px 5px 0px rgba(0, 0, 0, 0.12),
+  0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+$icon-small-font-family: 'MaterialIcons-Regular', Helvetica;
+$icon-small-font-size: 16px;
+$icon-small-font-style: normal;
+$icon-small-font-weight: 400;
+$icon-small-letter-spacing: 0px;
+$icon-small-line-height: 100%;
+$shadeswhite: rgba(255, 255, 255, 1);
+$text-button-font-family: 'Roboto-Medium', Helvetica;
+$text-button-font-size: 14px;
+$text-button-font-style: normal;
+$text-button-font-weight: 500;
+$text-button-letter-spacing: 1.25px;
+$text-button-line-height: 36px;
+
+.button {
+  align-items: center;
+  display: inline-flex;
+  gap: 16px;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.button .content {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 11px 0px;
+  position: relative;
+}
+
+.button .icon-left {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .div {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button.contained {
+  border-radius: 4px;
+}
+
+.button.outlined {
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.button.large {
+  height: 44px;
+}
+
+.button.small {
+  height: 28px;
+}
+
+.button.fab-extended {
+  border-radius: 50px;
+}
+
+.button.medium {
+  height: 36px;
+}
+
+.button.text {
+  border-radius: 4px;
+}
+
+.button.hover-true.fab-extended {
+  box-shadow: $default;
+}
+
+.button.hover-true.outlined {
+  border-color: $customprimary;
+}
+
+.button.disabled-true.fab-extended {
+  background-color: $black-012;
+}
+
+.button.disabled-false.fab-extended {
+  background-color: $customprimary;
+}
+
+.button.disabled-false.contained {
+  background-color: $customprimary;
+}
+
+.button.disabled-true.contained {
+  background-color: $black-012;
+}
+
+.button.text.hover-true {
+  background-color: $customprimary-004;
+}
+
+.button.hover-true.contained {
+  box-shadow: $default;
+}
+
+.button.disabled-true.outlined.hover-false {
+  border-color: $black-026;
+}
+
+.button.disabled-false.outlined.hover-false {
+  border-color: #1976d280;
+}
+
+.button .icon-left-false {
+  font-family: $text-button-font-family;
+  font-size: $text-button-font-size;
+  font-style: $text-button-font-style;
+  font-weight: $text-button-font-weight;
+  letter-spacing: $text-button-letter-spacing;
+  line-height: $text-button-line-height;
+}
+
+.button .disabled-0-true {
+  color: $black-026;
+}
+
+.button .icon-left-true {
+  font-family: $icon-small-font-family;
+  font-size: $icon-small-font-size;
+  font-style: $icon-small-font-style;
+  font-weight: $icon-small-font-weight;
+  letter-spacing: $icon-small-letter-spacing;
+  line-height: $icon-small-line-height;
+}
+
+.button .size-medium.icon-left-true {
+  margin-top: -2px;
+}
+
+.button .disabled-0-false.variant-outlined {
+  color: $customprimary;
+}
+
+.button .variant-text.disabled-0-false {
+  color: $customprimary;
+}
+
+.button .icon-left-false.size-large {
+  margin-bottom: -6px;
+  margin-top: -8px;
+}
+
+.button .size-small.icon-left-true {
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.button .icon-left-false.size-medium {
+  margin-bottom: -10px;
+  margin-top: -12px;
+}
+
+.button .size-small.icon-left-false {
+  margin-bottom: -14px;
+  margin-top: -16px;
+}
+
+.button .icon-left-true.disabled-0-false.variant-contained {
+  color: #ffffff;
+}
+
+.button .disabled-0-false.icon-left-false.variant-contained {
+  color: $shadeswhite;
+}
+
+.button .disabled-0-false.icon-left-false.variant-fab-extended {
+  color: $shadeswhite;
+}
+
+.button .icon-left-true.disabled-0-false.variant-fab-extended {
+  color: #ffffff;
+}
+
+.button .disabled-1-true {
+  color: $black-026;
+}
+
+.button .icon-left-0-true {
+  font-family: $text-button-font-family;
+  font-size: $text-button-font-size;
+  font-style: $text-button-font-style;
+  font-weight: $text-button-font-weight;
+  letter-spacing: $text-button-letter-spacing;
+  line-height: $text-button-line-height;
+  width: fit-content;
+}
+
+.button .size-0-medium.icon-left-0-true {
+  margin-bottom: -10px;
+  margin-top: -12px;
+}
+
+.button .disabled-1-false.variant-0-outlined {
+  color: $customprimary;
+}
+
+.button .disabled-1-false.variant-0-fab-extended {
+  color: $shadeswhite;
+}
+
+.button .variant-0-text.disabled-1-false {
+  color: $customprimary;
+}
+
+.button .disabled-1-false.variant-0-contained {
+  color: $shadeswhite;
+}
+
+.button .size-0-small.icon-left-0-true {
+  margin-bottom: -14px;
+  margin-top: -16px;
+}
+
+.button .icon-left-0-false.size-0-medium {
+  margin-top: -2px;
+}
+
+.button .size-0-small.icon-left-0-false {
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.button .icon-left-0-false.icon-right-true {
+  font-family: $icon-small-font-family;
+  font-size: $icon-small-font-size;
+  font-style: $icon-small-font-style;
+  font-weight: $icon-small-font-weight;
+  letter-spacing: $icon-small-letter-spacing;
+  line-height: $icon-small-line-height;
+  width: 12px;
+}
+
+.button .size-0-large.icon-left-0-true {
+  margin-bottom: -6px;
+  margin-top: -8px;
+}

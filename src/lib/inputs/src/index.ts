@@ -10,4 +10,3 @@ export * from './lib/floating-action-button/floating-action-button';
 export * from './lib/checkbox/checkbox';
 export * from './lib/button-group/button-group';
 export * from './lib/button/button';
-export * from './lib/inputs';

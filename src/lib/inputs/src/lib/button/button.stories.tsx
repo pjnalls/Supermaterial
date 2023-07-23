@@ -1,7 +1,8 @@
-import type { Meta } from '@storybook/react';
-import { Button } from './button';
+import type { Meta, StoryObj } from '@storybook/react';
+import { Button, ButtonProps } from './button';
+import './button.module.scss';
 
-const Story: Meta<typeof Button> = {
+const meta: Meta<typeof Button> = {
   component: Button,
   title: 'Inputs/Button',
   parameters: {
@@ -11,8 +12,19 @@ const Story: Meta<typeof Button> = {
     },
   },
 };
-export default Story;
+export default meta;
 
-export const Primary = {
-  args: {},
+const buttonArgs: ButtonProps = {
+  variant: 'text',
+  disabled: false,
+  size: 'large',
+  hover: false,
+  iconLeft: false,
+  iconRight: false,
+  key: '',
+  className: '',
+};
+export const Primary: StoryObj<typeof Button> = {
+  render: (args) => <Button {...args} key={JSON.stringify(args)} />,
+  args: { ...buttonArgs },
 };
