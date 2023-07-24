@@ -1,16 +1,13 @@
 <h1 align="center">
 
-<br/>
-
 <!-- markdownlint-disable-next-line -->
-<p align="center">
-  <a href="https://mui.com/" rel="noopener" target="_blank"><img width="150" src="public/logo.svg" alt="MUI logo"></a>
-</p>
-
-<br/>
-<br/>
+<div align="center">
+  <a href="pjnalls.com/works/super-material/" rel="noopener" target="_blank"><img width="300" src="public/logo.svg" alt="Super Material logo"></a>
+</div>
 
 **🦸Super Material🦹**
+
+<br />
 
 </h1>
 
@@ -22,9 +19,9 @@ Public Template
 
 <p align="center">
 
-<br>
+<br />
 
-[IN PROGRESS] Foundational React components. Based off an implementation of MUI Core written in TypeScript/Sass and maintained in an Nx/Storybook monorepo with Figma/Anima integrations.
+[IN PROGRESS] Advanced implementation of the MUI Core component libray as a standalone 🌊⚛️ Nx/React workspace w/ bidirectional integrations, 📚 Storybook ↔ 🎨 Figma.
 
 <br/>
 

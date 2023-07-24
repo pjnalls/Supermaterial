@@ -1,6 +1,7 @@
 $black-012: rgba(0, 0, 0, 0.12);
 $black-026: rgba(0, 0, 0, 0.26);
-$customprimary: rgba(25, 118, 210, 1);
+$customprimary: #6679cf;
+$customsecondary: #2639c0;
 $customprimary-004: rgba(25, 118, 210, 0.04);
 $default: 0px 1px 5px 0px rgba(0, 0, 0, 0.12),
   0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
@@ -19,11 +20,13 @@ $text-button-letter-spacing: 1.25px;
 $text-button-line-height: 36px;
 
 .button {
+  cursor: pointer;
   align-items: center;
   display: inline-flex;
   gap: 16px;
   padding: 0px 16px;
   position: relative;
+  transition: all 0.3s ease;
 }
 
 .button .content {
@@ -54,7 +57,7 @@ $text-button-line-height: 36px;
 }
 
 .button.outlined {
-  border: 1px solid;
+  border: 1px solid $customprimary;
   border-radius: 4px;
 }
 
@@ -115,7 +118,11 @@ $text-button-line-height: 36px;
 }
 
 .button.disabled-false.outlined.hover-false {
-  border-color: #1976d280;
+  border-color: $customsecondary;
+}
+
+.button:not(.outlined, .text):hover {
+  background-color: $customsecondary;
 }
 
 .button .icon-left-false {

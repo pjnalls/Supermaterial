@@ -6,7 +6,7 @@ export interface ComponentsProps {}
 export function Components(props: ComponentsProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to Components!</h1>
+      <h1 className="placeholder-text">Components</h1><br/><br/><h3  className="placeholder-text">This component is still in development.<br /><br/>Please refer to the "Design" tab below for its 🎨Figma design.</h3>
     </div>
   );
 }

@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
+    "start:storybook": "npx nx run storybook",
+    "build:storybook": "npx nx run build-storybook",
     "test": "nx test"
   },
   "private": true,

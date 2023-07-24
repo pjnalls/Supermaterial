@@ -6,7 +6,7 @@ export interface FootersProps {}
 export function Footers(props: FootersProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to Footers!</h1>
+      <h1 className="placeholder-text">Footers</h1><br/><br/><h3  className="placeholder-text">This component is still in development.<br /><br/>Please refer to the "Design" tab below for its 🎨Figma design.</h3>
     </div>
   );
 }
