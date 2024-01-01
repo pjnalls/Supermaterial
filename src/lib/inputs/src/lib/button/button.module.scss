@@ -1,23 +1,4 @@
-$black-012: rgba(0, 0, 0, 0.12);
-$black-026: rgba(0, 0, 0, 0.26);
-$customprimary: #6679cf;
-$customsecondary: #2639c0;
-$customprimary-004: rgba(25, 118, 210, 0.04);
-$default: 0px 1px 5px 0px rgba(0, 0, 0, 0.12),
-  0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-$icon-small-font-family: 'MaterialIcons-Regular', Helvetica;
-$icon-small-font-size: 16px;
-$icon-small-font-style: normal;
-$icon-small-font-weight: 400;
-$icon-small-letter-spacing: 0px;
-$icon-small-line-height: 100%;
-$shadeswhite: rgba(255, 255, 255, 1);
-$text-button-font-family: 'Roboto-Medium', Helvetica;
-$text-button-font-size: 14px;
-$text-button-font-style: normal;
-$text-button-font-weight: 500;
-$text-button-letter-spacing: 1.25px;
-$text-button-line-height: 36px;
+@import '/src/variables';
 
 .button {
   cursor: pointer;

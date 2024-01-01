@@ -1,9 +1,18 @@
-import type { Meta } from '@storybook/react';
-import { Chip } from './chip';
+import type { Meta, StoryObj } from '@storybook/react';
+import { Chip, ChipProps } from './chip';
+
+const chipArgs: ChipProps = {
+  size: 'default',
+  variant: 'primary',
+  avatar: false,
+  close: false,
+  className: '',
+};
 
 const Story: Meta<typeof Chip> = {
   component: Chip,
   title: 'Data Display/Chip',
+  argTypes: { variant: { control: false } },
   parameters: {
     design: {
       type: 'figma',
@@ -13,6 +22,11 @@ const Story: Meta<typeof Chip> = {
 };
 export default Story;
 
-export const Primary = {
-  args: {},
+export const Primary: StoryObj<typeof Chip> = {
+  render: (args) => <Chip {...args} key={JSON.stringify(args)} />,
+  args: { ...chipArgs, variant: 'primary' },
+};
+export const Primary_Avatar: StoryObj<typeof Chip> = {
+  render: (args) => <Chip {...args} key={JSON.stringify(args)} />,
+  args: { ...chipArgs, avatar: true, variant: 'primary' },
 };

@@ -1,7 +1,255 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+@import '/src/variables';
+
+.chip {
+    align-items: center;
+    display: inline-flex;
+    gap: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .chip .v-icon {
+    font-family: "Material Icons-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .chip .div {
+    font-weight: 400;
+    letter-spacing: 0;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .chip .text-wrapper {
+    font-family: "Material Icons-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 12px;
+  }
+  
+  .chip .span {
+    font-weight: 400;
+    letter-spacing: 0;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .chip.small {
+    border-radius: 12px;
+    padding: 2px 12px;
+  }
+  
+  .chip.default {
+    background-color: $black-012;
+  }
+  
+  .chip.outlined {
+    border: 1px solid;
+    border-color: $black-038;
+  }
+  
+  .chip.default {
+    border-radius: 16px;
+    padding: 6px 12px;
+  }
+  
+  .chip.primary {
+    background-color: $customprimary;
+  }
+  
+  .chip.x-small {
+    border-radius: 10px;
+    padding: 0px 12px;
+  }
+  
+  .chip .size-0-small {
+    font-size: 12px;
+  }
+  
+  .chip .avatar-false {
+    font-family: "Roboto-Regular", Helvetica;
+    line-height: 20px;
+    margin-top: -1px;
+    width: fit-content;
+  }
+  
+  .chip .close-true {
+    font-family: "Roboto-Regular", Helvetica;
+    line-height: 20px;
+    margin-top: -1px;
+    width: fit-content;
+  }
+  
+  .chip .size-0-default {
+    font-size: 14px;
+  }
+  
+  .chip .variant-0-primary {
+    color: $shadeswhite;
+  }
+  
+  .chip .size-0-x-small {
+    font-size: 10px;
+  }
+  
+  .chip .avatar-false.variant-0-default {
+    color: $black-087;
+  }
+  
+  .chip .avatar-false.variant-0-outlined {
+    color: $black-087;
+  }
+  
+  .chip .variant-0-outlined.close-true {
+    color: $black-087;
+  }
+  
+  .chip .avatar-true.close-false {
+    font-family: "Material Icons-Regular", Helvetica;
+    width: 12px;
+  }
+  
+  .chip .variant-0-default.close-true {
+    color: $black-087;
+  }
+  
+  .chip .size-0-default.avatar-true.close-false {
+    line-height: 14px;
+  }
+  
+  .chip .avatar-true.variant-0-outlined.close-false {
+    color: $black-038;
+  }
+  
+  .chip .size-0-x-small.avatar-true.close-false {
+    line-height: 10px;
+  }
+  
+  .chip .variant-0-default.avatar-true.close-false {
+    color: $black-054;
+  }
+  
+  .chip .avatar-true.size-0-small.close-false {
+    line-height: 12px;
+  }
+  
+  .chip .size-2-small {
+    font-size: 12px;
+  }
+  
+  .chip .close-0-true {
+    font-family: "Material Icons-Regular", Helvetica;
+    width: 12px;
+  }
+  
+  .chip .size-2-default {
+    font-size: 14px;
+  }
+  
+  .chip .variant-2-primary {
+    color: $shadeswhite;
+  }
+  
+  .chip .size-2-x-small {
+    font-size: 10px;
+  }
+  
+  .chip .close-0-false {
+    font-family: "Roboto-Regular", Helvetica;
+    line-height: 20px;
+    margin-top: -1px;
+    width: fit-content;
+  }
+  
+  .chip .variant-2-default.close-0-false {
+    color: $black-087;
+  }
+  
+  .chip .size-2-x-small.close-0-true {
+    line-height: 10px;
+  }
+  
+  .chip .size-2-small.close-0-true {
+    line-height: 12px;
+  }
+  
+  .chip .size-2-default.close-0-true {
+    line-height: 14px;
+  }
+  
+  .chip .variant-2-outlined.close-0-true {
+    color: $black-038;
+  }
+  
+  .chip .variant-2-default.close-0-true {
+    color: $black-054;
+  }
+  
+  .chip .variant-2-outlined.close-0-false {
+    color: $black-087;
+  }
+  
+  .chip.small .v-icon {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  
+  .chip.default .v-icon {
+    color: $black-054;
+  }
+  
+  .chip.outlined .v-icon {
+    color: $black-038;
+  }
+  
+  .chip.default .v-icon {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  
+  .chip.primary .v-icon {
+    color: $shadeswhite;
+  }
+  
+  .chip.x-small .v-icon {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  
+  .chip.small .text-wrapper {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  
+  .chip.default .text-wrapper {
+    color: $black-054;
+  }
+  
+  .chip.outlined .text-wrapper {
+    color: $black-038;
+  }
+  
+  .chip.default .text-wrapper {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  
+  .chip.primary .text-wrapper {
+    color: $shadeswhite;
+  }
+  
+  .chip.x-small .text-wrapper {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  

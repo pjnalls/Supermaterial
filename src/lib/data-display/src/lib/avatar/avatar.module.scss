@@ -1,7 +1,168 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+@import '/src/variables';
+
+.avatar .PN {
+  color: $shadeswhite;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.avatar.rounded {
+  border-radius: 4px;
+}
+
+.avatar.sixty-four {
+  height: 64px;
+  width: 64px;
+}
+
+.avatar.image {
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.avatar.text {
+  align-items: center;
+  background-color: $customprimary;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.avatar.thirty-six {
+  height: 36px;
+  width: 36px;
+}
+
+.avatar.circle {
+  border-radius: 50px;
+}
+
+.avatar.icon {
+  align-items: center;
+  background-color: $customprimary;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.avatar.forty-eight {
+  height: 48px;
+  width: 48px;
+}
+
+.avatar.icon.circle {
+  overflow: hidden;
+}
+
+.avatar.icon.rounded {
+  overflow: hidden;
+}
+
+.avatar.text.circle {
+  overflow: hidden;
+}
+
+.avatar.text.rounded {
+  overflow: hidden;
+}
+
+.avatar.square.thirty-six.image {
+  background-image: url('/assets/avatar.png');
+  width: 36px;
+}
+
+.avatar.thirty-six.rounded.image {
+  background-image: url('/assets/avatar.png');
+  border-radius: 6%;
+  width: 36px;
+}
+
+.avatar.forty-eight.image.rounded {
+  background-image: url('/assets/avatar.png');
+  border-radius: 6%;
+  width: 48px;
+}
+
+.avatar.square.sixty-four.image {
+  background-image: url('/assets/avatar.png');
+  width: 64px;
+}
+
+.avatar.sixty-four.image.circle {
+  background-image: url('/assets/avatar.png');
+  border-radius: 50%;
+  width: 64px;
+}
+
+.avatar.thirty-six.circle.image {
+  background-image: url('/assets/avatar.png');
+  border-radius: 50%;
+  width: 36px;
+}
+
+.avatar.forty-eight.image.circle {
+  background-image: url('/assets/avatar.png');
+  border-radius: 50%;
+  width: 48px;
+}
+
+.avatar.forty-eight.square.image {
+  background-image: url('/assets/avatar.png');
+  width: 48px;
+}
+
+.avatar.sixty-four.image.rounded {
+  background-image: url('/assets/avatar.png');
+  border-radius: 6%;
+  width: 64px;
+}
+
+.avatar.image .PN {
+  font-family: $text-body-1-font-family;
+  font-size: $text-body-1-font-size;
+  font-style: $text-body-1-font-style;
+  font-weight: $text-body-1-font-weight;
+  letter-spacing: $text-body-1-letter-spacing;
+  line-height: $text-body-1-line-height;
+}
+
+.avatar.text .PN {
+  font-family: $text-body-1-font-family;
+  font-size: $text-body-1-font-size;
+  font-style: $text-body-1-font-style;
+  font-weight: $text-body-1-font-weight;
+  letter-spacing: $text-body-1-letter-spacing;
+  line-height: $text-body-1-line-height;
+}
+
+.avatar.thirty-six .PN {
+  margin-bottom: -3px;
+  margin-top: -5px;
+}
+
+.avatar.icon .PN {
+  font-family: $icon-medium-font-family;
+  font-size: $icon-medium-font-size;
+  font-style: $icon-medium-font-style;
+  font-weight: $icon-medium-font-weight;
+  letter-spacing: $icon-medium-letter-spacing;
+  line-height: $icon-medium-line-height;
+}
+
+.avatar.icon.thirty-six .PN {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.avatar.text.thirty-six .PN {
+  margin-left: -2px;
+  margin-right: -2px;
+}

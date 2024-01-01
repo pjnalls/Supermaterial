@@ -1,8 +1,5 @@
 const config = {
-  stories: [
-    '../src/app/**/*.stories.@(js|jsx|ts|tsx|mdx)',
-    '../src/lib/**/*.stories.@(js|jsx|ts|tsx|mdx)',
-  ],
+  stories: ['../src/lib/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
   staticDirs: ['../public'],
   addons: ['@storybook/addon-designs', '@storybook/addon-essentials'],
   framework: {

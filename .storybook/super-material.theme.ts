@@ -11,8 +11,8 @@ export const SuperMaterialTheme = create(
         fontCode: 'monospace',
 
         brandTitle: 'Super Material',
-        brandUrl: 'https://pjnalls.com/works/super-material/',
-        brandImage: 'https://pjnalls.com/works/super-material/logo.svg',
+        brandUrl: 'https://pjnalls.com/works/supermat/',
+        brandImage: 'https://pjnalls.com/works/supermat/logo.svg',
         brandTarget: '_self',
 
         colorPrimary: '#76ff3b',

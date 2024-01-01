@@ -1,14 +1,43 @@
-import styles from './badge.module.scss';
+import PropTypes from 'prop-types';
+import * as badgeStyles from './badge.module.scss';
 
-/* eslint-disable-next-line */
-export interface BadgeProps {}
+export interface BadgeProps {
+  tile: boolean;
+  dot: boolean;
+  bordered: boolean;
+  variant: 'none' | 'icon' | 'text';
+  className: string;
+}
 
-export function Badge(props: BadgeProps) {
+export const Badge = ({
+  tile,
+  dot,
+  bordered,
+  variant,
+  className,
+}: BadgeProps): JSX.Element => {
   return (
-    <div className={styles['container']}>
-      <h1 className="placeholder-text">Badge</h1><br/><br/><h3  className="placeholder-text">This component is still in development.<br /><br/>Please refer to the "Design" tab below for its 🎨Figma design.</h3>
+    <div
+      className={`badge dot-${dot} ${variant} bordered-${bordered} tile-${tile} ${className} ${{
+        ...badgeStyles,
+      }}`}
+    >
+      {!dot && (
+        <div className="span">
+          {variant === 'text' && <>9</>}
+
+          {variant === 'icon' && <>🦸</>}
+        </div>
+      )}
     </div>
   );
-}
+};
+
+export const BadgePropTypes = {
+  tile: PropTypes.bool,
+  dot: PropTypes.bool,
+  bordered: PropTypes.bool,
+  variant: PropTypes.oneOf(['none', 'icon', 'text']),
+};
 
 export default Badge;

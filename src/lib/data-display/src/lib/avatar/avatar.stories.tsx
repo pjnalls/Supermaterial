@@ -1,9 +1,17 @@
-import type { Meta } from '@storybook/react';
-import { Avatar } from './avatar';
+import type { Meta, StoryObj } from '@storybook/react';
+import { Avatar, AvatarProps } from './avatar';
 
-const Story: Meta<typeof Avatar> = {
+const avatarArgs: AvatarProps = {
+  variant: 'circle',
+  size: 'sixty-four',
+  type: 'image',
+  className: '',
+};
+
+const meta: Meta<typeof Avatar> = {
   component: Avatar,
   title: 'Data Display/Avatar',
+  argTypes: { variant: { control: false } },
   parameters: {
     design: {
       type: 'figma',
@@ -11,8 +19,41 @@ const Story: Meta<typeof Avatar> = {
     },
   },
 };
-export default Story;
+export default meta;
 
-export const Primary = {
-  args: {},
+export const Circled_Image: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'image', variant: 'circle' },
+};
+export const Rounded_Image: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'image', variant: 'rounded' },
+};
+export const Squared_Image: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'image', variant: 'square' },
+};
+export const Circled_Icon: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'icon', variant: 'circle' },
+};
+export const Rounded_Icon: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'icon', variant: 'rounded' },
+};
+export const Squared_Icon: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'icon', variant: 'square' },
+};
+export const Circled_Text: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'text', variant: 'circle' },
+};
+export const Rounded_Text: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'text', variant: 'rounded' },
+};
+export const Squared_Text: StoryObj<typeof Avatar> = {
+  render: (args) => <Avatar {...args} key={JSON.stringify(args)} />,
+  args: { ...avatarArgs, type: 'text', variant: 'square' },
 };

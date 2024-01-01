@@ -1,7 +1,86 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+@import '/src/variables';
+
+.badge {
+  background-color: $customprimary;
+}
+
+.badge .span {
+  color: $shadeswhite;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.badge.dot-false {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.badge.text {
+  padding: 4px 6px;
+}
+
+.badge.dot-true {
+  height: 9px;
+  width: 9px;
+}
+
+.badge.bordered-true {
+  border-color: $shadeswhite;
+}
+
+.badge.icon {
+  padding: 4px;
+}
+
+.badge.tile-false.none {
+  border-radius: 9px;
+}
+
+.badge.tile-false.dot-false {
+  overflow: hidden;
+}
+
+.badge.bordered-true.none {
+  border: 1.5px solid;
+}
+
+.badge.icon.tile-false.dot-false {
+  border-radius: 20px;
+}
+
+.badge.bordered-true.icon.dot-false {
+  border: 2px solid;
+}
+
+.badge.text.bordered-true.dot-false {
+  border: 2px solid;
+}
+
+.badge.text.tile-false.dot-false {
+  border-radius: 20px;
+}
+
+.badge.bordered-false .span {
+  margin-top: -1px;
+}
+
+.badge.text .span {
+  font-family: 'Roboto-Regular', Helvetica;
+  width: 8px;
+}
+
+.badge.bordered-true .span {
+  margin-top: -2px;
+}
+
+.badge.icon .span {
+  font-family: 'Material Icons-Regular', Helvetica;
+  width: 12px;
+}

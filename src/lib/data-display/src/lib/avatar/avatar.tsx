@@ -1,22 +1,40 @@
-import styles from './avatar.module.scss';
+import PropTypes from 'prop-types';
+import * as avatarStyles from './avatar.module.scss';
 
-/* eslint-disable-next-line */
-export interface AvatarProps {}
+export interface AvatarProps {
+  variant: 'circle' | 'rounded' | 'square';
+  size: 'thirty-six' | 'sixty-four' | 'forty-eight';
+  type: 'image' | 'text' | 'icon';
+  className: string;
+}
 
-export function Avatar(props: AvatarProps) {
+export const Avatar = ({
+  variant,
+  size,
+  type,
+  className,
+}: AvatarProps): JSX.Element => {
   return (
-    <div className={styles['container']}>
-      <h1 className="placeholder-text">Avatar</h1>
-      <br />
-      <br />
-      <h3 className="placeholder-text">
-        This component is still in development.
-        <br />
-        <br />
-        Please refer to the "Design" tab below for its 🎨Figma design.
-      </h3>
+    <div
+      className={`avatar ${variant} ${size} ${type} ${className} ${{
+        ...avatarStyles,
+      }}`}
+    >
+      {['icon', 'text'].includes(type) && (
+        <div className="PN">
+          {type === 'text' && <>PN</>}
+
+          {type === 'icon' && <>🦸</>}
+        </div>
+      )}
     </div>
   );
-}
+};
+
+export const AvatarPropTypes = {
+  variant: PropTypes.oneOf(['circle', 'rounded', 'square']),
+  size: PropTypes.oneOf(['thirty-six', 'sixty-four', 'forty-eight']),
+  type: PropTypes.oneOf(['image', 'text', 'icon']),
+};
 
 export default Avatar;

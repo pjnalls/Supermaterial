@@ -5,7 +5,7 @@
   <a href="pjnalls.com/works/super-material/" rel="noopener" target="_blank"><img width="300" src="public/logo.svg" alt="Super Material logo"></a>
 </div>
 
-**🦸Super Material🦹**
+**⚡🦸 Super Material 🦹⚡**
 
 <br />
 
@@ -21,7 +21,7 @@ Public Template
 
 <br />
 
-[IN PROGRESS] Advanced implementation of the MUI Core component libray as a standalone 🌊⚛️ Nx/React workspace w/ bidirectional integrations, 📚 Storybook ↔ 🎨 Figma.
+"Superextended" Material component library as a standalone Nx/React workspace w/ Storybook and Figma integrations 🌊⚛️📚🎨
 
 <br/>
 
